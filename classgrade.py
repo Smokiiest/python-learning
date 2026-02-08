@@ -4,12 +4,12 @@ for x in range(total):
     element = int(input(f"student number {x+1}: "))
     grades.append(element)
 
-SUM = sum(grades)
-AV = SUM/total
-print("average is ", AV)
-if AV >90:
+sumOfGrades = sum(grades)
+averageScore = sumOfGrades/total
+print("average is ", averageScore)
+if averageScore >90:
         print("grade is A")
-elif AV >80:
+elif averageScore >80:
         print("grade is B")
 else:
         print("grade is F")
