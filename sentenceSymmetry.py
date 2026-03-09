@@ -1,13 +1,4 @@
-'''
-Ahmed Shihab AlMaamri
-146313
-Lab5 exercise 3
-1. program prompts the user to input a sentence consisting of an even number of characters more than 2,
-2. it validates the two conditions and if met, proceeds with the program, if not, the program exits an
-appropriate message.
-3. the program finds he
-continue
-'''
+
 sentence = input("enter a sentence with an even number of characters more than 2 ")
 
 sentLength = len(sentence)
@@ -33,4 +24,5 @@ else:
     if symmetry:
         print("the sentence is symmetrical")
     else:
+
         print("the sentence is not symmetrical")
